@@ -1,8 +1,6 @@
 provider "aws" {
   region     = "ap-southeast-2"
-    access_key = "${AWS_ACCESS_KEY_ID}"
-    secret_key = "${SECRET_KEY}"
-
+   
 }
 
 resource "aws_instance" "my_app_server" {
